@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_appwid_detail_msg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/txt_msgTO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDy="1"
+        android:shadowRadius="0.01"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/txt_messageContent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDy="1"
+        android:shadowRadius="0.01"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:shadowColor="#FFFFFF"
+            android:shadowDy="1"
+            android:shadowRadius="0.01"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="15sp"
+             />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_threadId"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
